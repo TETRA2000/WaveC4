@@ -84,6 +84,9 @@
 		A95201081C9FFFAF00A548D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95201071C9FFFAF00A548D1 /* Images.xcassets */; };
 		A952010B1C9FFFAF00A548D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95201091C9FFFAF00A548D1 /* LaunchScreen.xib */; };
 		A95201161C9FFFAF00A548D1 /* WaveC4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95201151C9FFFAF00A548D1 /* WaveC4Tests.swift */; };
+		A95201211CA0348900A548D1 /* RemoteRippleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95201201CA0348900A548D1 /* RemoteRippleManager.swift */; };
+		A95201241CA034B800A548D1 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95201231CA034B800A548D1 /* Const.swift */; };
+		A95201261CA03B9100A548D1 /* RemoteRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95201251CA03B9100A548D1 /* RemoteRipple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +181,9 @@
 		A95201111C9FFFAF00A548D1 /* WaveC4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveC4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95201151C9FFFAF00A548D1 /* WaveC4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveC4Tests.swift; sourceTree = "<group>"; };
 		A95201171C9FFFAF00A548D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95201201CA0348900A548D1 /* RemoteRippleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteRippleManager.swift; sourceTree = "<group>"; };
+		A95201231CA034B800A548D1 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A95201251CA03B9100A548D1 /* RemoteRipple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteRipple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,8 +225,10 @@
 		A952006C1C9FFFAE00A548D1 /* WaveC4 */ = {
 			isa = PBXGroup;
 			children = (
+				A95201221CA0349100A548D1 /* BLE */,
 				A952006D1C9FFFAE00A548D1 /* AppDelegate.swift */,
 				A95201021C9FFFAF00A548D1 /* WorkSpace.swift */,
+				A95201231CA034B800A548D1 /* Const.swift */,
 				A95201041C9FFFAF00A548D1 /* Main.storyboard */,
 				A95201071C9FFFAF00A548D1 /* Images.xcassets */,
 				A95201091C9FFFAF00A548D1 /* LaunchScreen.xib */,
@@ -349,6 +357,15 @@
 			path = WaveC4Tests;
 			sourceTree = "<group>";
 		};
+		A95201221CA0349100A548D1 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				A95201201CA0348900A548D1 /* RemoteRippleManager.swift */,
+				A95201251CA03B9100A548D1 /* RemoteRipple.swift */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -464,6 +481,7 @@
 				A95200EF1C9FFFAF00A548D1 /* Bloom.swift in Sources */,
 				A95200B71C9FFFAF00A548D1 /* Rectangle.swift in Sources */,
 				A95200BB1C9FFFAF00A548D1 /* ScreenRecorder.swift in Sources */,
+				A95201211CA0348900A548D1 /* RemoteRippleManager.swift in Sources */,
 				A95200A71C9FFFAF00A548D1 /* ImageLayer.swift in Sources */,
 				A95200F91C9FFFAF00A548D1 /* HueAdjust.swift in Sources */,
 				A95200B51C9FFFAF00A548D1 /* QuadCurve.swift in Sources */,
@@ -494,6 +512,7 @@
 				A95200721C9FFFAF00A548D1 /* Color.swift in Sources */,
 				A95200C51C9FFFAF00A548D1 /* Star.swift in Sources */,
 				A952008F1C9FFFAF00A548D1 /* Circle.swift in Sources */,
+				A95201261CA03B9100A548D1 /* RemoteRipple.swift in Sources */,
 				A95200FB1C9FFFAF00A548D1 /* LinearGradient.swift in Sources */,
 				A95200971C9FFFAF00A548D1 /* Font.swift in Sources */,
 				A95200AD1C9FFFAF00A548D1 /* Movie.swift in Sources */,
@@ -505,6 +524,7 @@
 				A952007A1C9FFFAF00A548D1 /* Path.swift in Sources */,
 				A95200E51C9FFFAF00A548D1 /* UIView+AddRemove.swift in Sources */,
 				A95200DD1C9FFFAF00A548D1 /* ViewAnimation.swift in Sources */,
+				A95201241CA034B800A548D1 /* Const.swift in Sources */,
 				A952008D1C9FFFAF00A548D1 /* CanvasController.swift in Sources */,
 				A95200871C9FFFAF00A548D1 /* Animation.swift in Sources */,
 				A95200991C9FFFAF00A548D1 /* Generator.swift in Sources */,
