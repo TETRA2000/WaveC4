@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode7.3
+script:
+ - xcodebuild test -scheme WaveC4 -destination 'platform=iOS Simulator,name=iPhone 6'
